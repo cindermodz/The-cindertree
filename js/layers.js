@@ -25,18 +25,10 @@ addLayer("p", {
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
-}),```js
-upgrades: {```;js
-11; {```js
-title: "cinder!",
-description: "Double your point gain.",
-cost: new Decimal(1),
-```
+}), upgrades; {11; {
 
-}```js
-if (hasUpgrade('p', 11)) gain = gain.times(2)
-```
-```
+    title: "Make this whatever you want!",
+    description; "Double your point gain.",
+    cost; new Decimal(1)}
 
-},
-```
+}
