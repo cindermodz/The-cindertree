@@ -25,10 +25,9 @@ addLayer("c", {
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
-})
+    ,```js
+    upgrades: {```js
+    11: {
 
-```js
-        11: {
+    },
 
-        },
-```
